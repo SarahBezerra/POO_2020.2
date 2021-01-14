@@ -27,7 +27,7 @@ public class Calango{
         }    
     } 
 
-    void briga(){
+    void brigar(){
         if(numpatas > 0){
             numpatas -= 1;
             System.out.println("Arri égua!!! Perdi uma pata.");
@@ -69,29 +69,32 @@ public class Calango{
     
 
     public String toString(){
-        return "Calango: Energia:" + energia + " Patas:" + numpatas + " Rabo:" + rabo;
+        return "Calango: Energia:" + energia + " Patas:" + numpatas + " Rabo:" + rabo + " Vivo:" + estaVivo;
     }
 
 
     public static void main(String[] args) {
         System.out.println("Oi, eu sou o Calanguinho!");
         Calango deadpool = new Calango(10, 4);
-        System.out.println(deadpool);
-
-        for(int i = 0; i < 11; i ++){
-            deadpool.correr();
-        }
-
-        System.out.println(deadpool);
-        deadpool.descansar(5);
         
-        deadpool.briga();
-        deadpool.briga();
-        deadpool.briga();
-        deadpool.briga();
-        deadpool.briga();
-        deadpool.briga();
-
+        System.out.println(deadpool);
+        deadpool.correr();
+        deadpool.correr();
+        deadpool.correr();
+        System.out.println(deadpool);
+        deadpool.descansar(2);
+        System.out.println(deadpool);
+        deadpool.brigar();
+        deadpool.brigar();
+        deadpool.brigar();
+        deadpool.brigar();
+        deadpool.brigar();
+        System.out.println(deadpool);
+        deadpool.regenerar();
+        deadpool.regenerar();
+        deadpool.regenerar();
+        deadpool.regenerar();
+        deadpool.regenerar();
         deadpool.regenerar();
         System.out.println(deadpool);
 
