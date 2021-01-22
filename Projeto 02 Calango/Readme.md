@@ -6,8 +6,7 @@
 *Carroo*
 
 1. O que fez?
-    - Fiz o projeto do Carro.
-    - Link: [CARRO](https://github.com/qxcodepoo/arcade/blob/master/base/002/Readme.md)
+    - Fiz o projeto do [CARRO](https://github.com/qxcodepoo/arcade/blob/master/base/002/Readme.md)
 
 2. Com quem fez?
     - Sozinha.
